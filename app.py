@@ -25,7 +25,7 @@ if __name__ == "__main__":
     try:
         NUMBER=int(sys.argv[1])
     except IndexError as ierr:
-        NUMBER=100
+        NUMBER=210
 
     try:
         CHUNK_SIZE=int(sys.argv[2])
